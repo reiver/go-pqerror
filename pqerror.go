@@ -93,7 +93,7 @@ const (
 	CodeDataExceptionInvalidTextRepresentation             = pq.ErrorCode("22P02")
 	CodeDataExceptionInvalidBinaryRepresentation           = pq.ErrorCode("22P03")
 	CodeDataExceptionBadCopyFileFormat                     = pq.ErrorCode("22P04")
-	CodeUntranslatableCharacter               = pq.ErrorCode("22P05")
+	CodeUntranslatableCharacter                            = pq.ErrorCode("22P05")
 	CodeDataExceptionNotAnXmlDocument                      = pq.ErrorCode("2200L")
 	CodeDataExceptionInvalidXmlDocument                    = pq.ErrorCode("2200M")
 	CodeDataExceptionInvalidXmlContent                     = pq.ErrorCode("2200N")
