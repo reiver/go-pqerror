@@ -8,3 +8,17 @@ Online documentation, which includes examples, can be found at: http://godoc.org
 
 [![GoDoc](https://godoc.org/github.com/reiver/go-pqerror?status.svg)](https://godoc.org/github.com/reiver/go-pqerror)
 
+
+## Example
+```
+pqError := err.(*pq.Error)
+
+switch pqError.Code {
+case pqerror.CodeSyntaxError:
+	//@TODO
+case pqerror.CodeIntegrityConstraintViolationUniqueViolation:
+	//@TODO
+default:
+	//@TODO
+}
+```
